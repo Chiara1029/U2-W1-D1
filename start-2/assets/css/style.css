@@ -395,3 +395,24 @@ footer a {
         margin-inline: auto;
     }
 }
+
+@media print{
+    header{
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+    .form-section{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+    aside{
+        display: none;
+    }
+    table{
+        margin-inline: auto;
+    }
+}
